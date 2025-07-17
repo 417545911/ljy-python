@@ -12,7 +12,7 @@ pyautogui.doubleClick()
 
 # 用缓动/渐变函数让速表2秒后移动到（500，500）位置
 # use tweening/easing function to move mouse over 1 seconds.
-pyautogui.moveTo(300,190,duration=1,tween=pyautogui.easeInOutQuad)
+pyautogui.moveTo(500,190,duration=1,tween=pyautogui.easeInOutQuad)
 pyautogui.click()
 # 在每次输入之间暂停0.25秒
 pyautogui.typewrite("Hello world!",interval=0.25)
