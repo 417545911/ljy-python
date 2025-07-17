@@ -1,0 +1,11 @@
+# 忽略har文件夹中的内容但保留文件夹
+har/*
+!har/.gitkeep
+
+# 忽略demo文件夹中的内容但保留文件夹
+demo/*
+!demo/.gitkeep
+
+# 忽略logs文件夹中的内容但保留文件夹
+logs/*
+!logs/.gitkeep
